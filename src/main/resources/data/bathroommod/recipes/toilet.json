@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bathroom",
+    "pattern": [
+        "L",
+        "I P",
+        "SBS"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:heavy_weighted_pressure_plate"
+        },
+        "S": {
+            "item": "minecraft:smooth_quartz_slab"
+        },
+		"B": {
+            "item": "minecraft:water_bucket"
+        },
+		"I": {
+            "item": "minecraft:iron_bars"
+        },
+		"L": {
+			"item": "minecraft:smooth_quartz"
+		}
+    },
+    "result": {
+        "item": "bathroom:toilet",
+        "count": 1
+    }
+}

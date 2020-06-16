@@ -1,0 +1,11 @@
+{
+	"variants": {
+		"": {
+			"model": "bathroommod:block/bath1",
+			"facing=north":	{ "model": "bathroommod:block/bath1" },
+			"facing=south":	{ "model": "bathroommod:block/bath1", "z": 180 },
+			"facing=west":	{ "model": "bathroommod:block/bath1", "z": 270 },
+			"facing=east":	{ "model": "bathroommod:block/bath1", "z": 90 }
+		}
+	}
+}

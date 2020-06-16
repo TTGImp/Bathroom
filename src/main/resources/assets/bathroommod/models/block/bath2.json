@@ -1,0 +1,88 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "allwhite": "bathroommod:blocks/allwhite",
+        "white": "bathroommod:blocks/white"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 1, 0, 0 ], 
+            "to": [ 15, 1, 16 ], 
+            "faces": {
+                "north": { "texture": "#allwhite", "uv": [ 0, 0, 14, 1 ] },
+                "east": { "texture": "#allwhite", "uv": [ 0, 0, 16, 1 ] },
+                "south": { "texture": "#allwhite", "uv": [ 0, 0, 14, 1 ] },
+                "west": { "texture": "#allwhite", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#allwhite", "uv": [ 0, 0, 14, 16 ] },
+                "down": { "texture": "#allwhite", "uv": [ 0, 0, 14, 16 ] }
+            }
+        },
+        {
+            "name": "Back",
+            "from": [ 3, 1, 13 ], 
+            "to": [ 13, 8, 16 ], 
+            "faces": {
+                "north": { "texture": "#allwhite", "uv": [ 0, 0, 10, 7 ] },
+                "south": { "texture": "#white", "uv": [ 0, 0, 10, 7 ] },
+                "up": { "texture": "#allwhite", "uv": [ 0, 0, 10, 3 ] }
+            }
+        },
+        {
+            "name": "Left",
+            "from": [ 1, 1, 0 ], 
+            "to": [ 3, 8, 16 ], 
+            "faces": {
+                "north": { "texture": "#allwhite", "uv": [ 0, 0, 2, 7 ] },
+                "east": { "texture": "#allwhite", "uv": [ 0, 0, 16, 7 ] },
+                "south": { "texture": "#white", "uv": [ 0, 0, 2, 7 ] },
+                "west": { "texture": "#white", "uv": [ 0, 0, 16, 7 ] },
+                "up": { "texture": "#allwhite", "uv": [ 0, 0, 2, 16 ] }
+            }
+        },
+        {
+            "name": "Right",
+            "from": [ 13, 1, 0 ], 
+            "to": [ 15, 8, 16 ], 
+            "faces": {
+                "north": { "texture": "#allwhite", "uv": [ 0, 0, 2, 7 ] },
+                "east": { "texture": "#white", "uv": [ 0, 0, 16, 7 ] },
+                "south": { "texture": "#white", "uv": [ 0, 0, 2, 7 ] },
+                "west": { "texture": "#allwhite", "uv": [ 0, 0, 16, 7 ] },
+                "up": { "texture": "#allwhite", "uv": [ 0, 0, 2, 16 ] }
+            }
+        }
+    ]
+}

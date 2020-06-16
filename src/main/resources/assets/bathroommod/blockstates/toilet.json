@@ -1,0 +1,14 @@
+{
+  "forge_marker": 1,
+  "defaults": { "model": "bathroommod:block/toilet"
+  },
+	"variants": {
+		"": {
+			"model": "bathroommod:block/toilet",
+			"facing=north":	{ "model": "bathroommod:block/toilet" },
+			"facing=south":	{ "model": "bathroommod:block/toilet", "y": 180 },
+			"facing=west":	{ "model": "bathroommod:block/toilet", "y": 270 },
+			"facing=east":	{ "model": "bathroommod:block/toilet", "y": 90 }
+		}
+	}
+}
