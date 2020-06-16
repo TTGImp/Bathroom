@@ -65,7 +65,7 @@ public class ToiletBlock extends Block   {
     		shapes.add(VoxelShapes.create(0.062, 0.812, 0.125, 0.125, 0.875, 0.188));
     		shapes.add(VoxelShapes.create(0.062, 0.938, 0, 0.938, 1, 0.312));
     		break;
-    	case "west":
+    	case "east":
     		shapes.add(VoxelShapes.create(0.25, 0, 0.25, 0.75, 0.062, 0.75));
     		shapes.add(VoxelShapes.create(0.375, 0.062, 0.375, 0.625, 0.125, 0.625));
     		shapes.add(VoxelShapes.create(0.312, 0.125, 0.375, 0.625, 0.188, 0.625));
@@ -93,7 +93,7 @@ public class ToiletBlock extends Block   {
     		shapes.add(VoxelShapes.create(0.875, 0.812, 0.812, 0.938, 0.875, 0.875));
     		shapes.add(VoxelShapes.create(0.062, 0.938, 0.688, 0.938, 1, 1));
     		break;
-    	case "east":
+    	case "west":
     		shapes.add(VoxelShapes.create(0.25, 0, 0.25, 0.75, 0.062, 0.75));
     		shapes.add(VoxelShapes.create(0.375, 0.062, 0.375, 0.625, 0.125, 0.625));
     		shapes.add(VoxelShapes.create(0.375, 0.125, 0.375, 0.688, 0.188, 0.625));
@@ -156,7 +156,7 @@ public class ToiletBlock extends Block   {
     @Override
 	public BlockRenderLayer getRenderLayer()
 	{
-		return BlockRenderLayer.CUTOUT_MIPPED;
+		return BlockRenderLayer.CUTOUT;
 	}
 	
     @Override
@@ -168,7 +168,7 @@ public class ToiletBlock extends Block   {
     @Override
     public BlockState getStateForPlacement(BlockItemUseContext context)
     {
-        return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+        return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing());
     }
 
     @Override
