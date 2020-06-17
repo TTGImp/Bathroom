@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "bathroom",
+	"group": "bathroom",
     "pattern": [
-        "L",
+        "L  ",
         "I P",
         "SBS"
     ],
@@ -24,7 +24,7 @@
 		}
     },
     "result": {
-        "item": "bathroom:toilet",
+        "item": "bathroommod:toilet",
         "count": 1
     }
 }
